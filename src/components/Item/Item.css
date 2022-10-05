@@ -1,0 +1,53 @@
+:root{
+    --logo: 'UnifrakturCook';
+    --titulo: 'Montserrat', sans-serif;
+    --parrafo: 'Roboto', sans-serif;
+    --colorPrincipal: #2c3e50;
+    --colorSecundario: white;
+}
+.contenido--producto{
+    text-align: center;
+    padding: 1rem;
+    color: var(--colorPrincipal);
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.contenido--producto:hover{
+    color: #17212a;
+    border: 1px solid var(--colorPrincipal);
+    -webkit-box-shadow: 0px 10px 30px -4px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 10px 30px -4px rgba(0,0,0,0.64);
+    box-shadow: 0px 10px 30px -4px rgba(0,0,0,0.64);
+}
+.nombre--producto{
+    font-style: italic;
+}
+.contenedor--imagen--producto{
+    width: 98%;
+    margin: 0 auto;
+}
+.stock--producto{
+    font-size: 1rem;
+    font-family: var(--parrafo);
+    font-weight: bold;
+}
+.imagen--producto{
+    width: 100%;
+}
+.btn{
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    background-color: var(--colorPrincipal);
+    color: var(--colorSecundario);
+    font-weight: bold;
+    padding: 10px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: var(--titulo);
+}
+.btn:hover{
+    background-color: #2c3e50eb;
+}

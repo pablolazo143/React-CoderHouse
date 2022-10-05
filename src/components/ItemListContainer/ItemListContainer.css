@@ -17,3 +17,10 @@
     font-weight: bold;
     font-size: 34px;
 }
+
+.contenedor--productos{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+

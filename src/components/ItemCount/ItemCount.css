@@ -1,0 +1,37 @@
+:root{
+    --logo: 'UnifrakturCook';
+    --titulo: 'Montserrat', sans-serif;
+    --parrafo: 'Roboto', sans-serif;
+    --colorPrincipal: #2c3e50;
+    --colorSecundario: white;
+}
+.contenedor--sumar{
+    max-width: 150px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--colorPrincipal);
+    border-radius: 20px;
+}
+.boton--sumarRestar{
+    margin: 0;
+    cursor: pointer;
+    padding: 15px;
+    background-color: var(--colorPrincipal);
+    color: var(--colorSecundario);
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cuenta{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: var(--parrafo);
+}

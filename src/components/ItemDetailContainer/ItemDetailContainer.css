@@ -1,0 +1,13 @@
+:root{
+    --logo: 'UnifrakturCook';
+    --titulo: 'Montserrat', sans-serif;
+    --parrafo: 'Roboto', sans-serif;
+    --colorPrincipal: #2c3e50;
+    --colorSecundario: white;
+}
+
+.cargando--producto{
+    color: var(--colorPrincipal);
+    font-family: var(--titulo);
+    font-size: 2.4rem;
+}

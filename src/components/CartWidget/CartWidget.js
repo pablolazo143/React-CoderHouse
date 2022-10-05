@@ -5,7 +5,7 @@ const CartWidget = ()=>{
     return(
         <div className='CartWidget'>
             <div className='CartWidget--cont-img'>
-                <img src={beer_005} className='CartWidget--img' />
+                <img src={beer_005} alt='logo' className='CartWidget--img' />
             </div>
             <p className='CartWidget--p'>0</p>
         </div>

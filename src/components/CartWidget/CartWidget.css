@@ -10,6 +10,15 @@
     max-width: fit-content;
     display: flex;
     align-items: center;
+    border: 1px solid var(--colorSecundario);
+    border-radius: 5px;
+    padding: 1px 10px;
+    text-decoration: none;
+}
+
+.disabled{
+    cursor: not-allowed;
+    pointer-events: none;
 }
 
 .CartWidget--cont-img{
@@ -20,7 +29,6 @@
 .CartWidget--img{
     width: 100%;
     margin: 0;
-    /* border-radius: 50%; */
 }
 
 .CartWidget--p{

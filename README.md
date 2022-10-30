@@ -1,3 +1,15 @@
+# Introducción
+Este es un Ecommerce de whisky. 
+Dentro de esta aplicación tenemos una vista principal en la que se muestran todos los productos de la tienda.
+Tenemos la posibilidad también de filtrar por categorías de productos a partir del navbar.
+Al cliquear en el boton de ver detalle, que se encuentra en la carta de cada producto, accedemos a una vista con el detalle del producto elegido en la que se indica la cantidad disponible, el precio y es posible agregar el producto al carrito.
+Luego de agregarlo es posible avanzar con la compra al hacer click en el boton de finalizar compra.
+Este botón nos lleva a una nueva ruta en la que vemos el resumen del pedido y podemos generar la orden de compra. Al hacer click en generar orden de compra debemos llenar un formulario que crea la orden y se almacena en firebase.
+Otras funcionalidades de la aplicación son la posibilidad de eliminar productos del carrito y la actualización del stock al realizar la orden de compra.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

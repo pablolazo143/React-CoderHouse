@@ -1,3 +1,7 @@
+import { addDoc, collection } from 'firebase/firestore';
+import { db } from './services/firebase';
+
+
 const products = [
     {
         name: "Chivas 12 años",
@@ -286,3 +290,18 @@ export const getProduct = (id)=>{
         },2000);
     });
 }
+
+export const cargarFirebase = ()=>{
+    products.forEach(element => {
+        const product = {
+            name: element.name,
+            alt: element.alt,
+            image: element.image,
+            precio: element.precio,
+            category: element.category,
+            stock: element.stock
+        }
+        const collectionReference = collection(db, 'products')
+        addDoc(collectionReference, product)
+    });
+};
